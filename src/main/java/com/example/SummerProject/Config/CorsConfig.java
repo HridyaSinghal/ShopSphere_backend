@@ -17,7 +17,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOriginPatterns(
                             "http://localhost:*",
-                            "https://*.netlify.app",
+                            // "https://*.netlify.app",
                             "https://shopsphereuniverse.netlify.app",
                             "https://6926d214066901000852e0ec--shopsphereuniverse.netlify.app",
                             "https://shopspheresworld.netlify.app",
